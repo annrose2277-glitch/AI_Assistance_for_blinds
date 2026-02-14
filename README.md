@@ -89,11 +89,13 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+[WhatsApp Image 2026-02-14 at 6 46 43 AM](https://github.com/user-attachments/assets/a6694523-1c19-4c70-8af8-2851e4b2b16a)
+detection of a person,bottle,chair ---output showing in terminal
+#detection of objects
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+[WhatsApp Image 2026-02-14 at 6 49 04 AM](https://github.com/user-attachments/assets/b4723f36-6af6-4fa6-91f3-c77a6c5ea088)
+detection of cell phone ---output showing in terminal
+#detection of objects
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
@@ -367,7 +369,9 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+(https://github.com/user-attachments/assets/82a02595-b917-4043-806c-6508f71014b3)
+
+
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
