@@ -2,27 +2,33 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [AI_Assistance_for_blinds] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Wildx]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1:[Ann Rose Mathew] - [LBS Institute of Technology for Women]
+- Member 2: [Ann Mariya Joju M] - [LBS Institute of Technology for Women]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://github.com/annrose2277-glitch/AI_Assistance_for_blinds.git]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This project modernizes traditional navigational aids by integrating computer vision and sensor fusion into an intelligent assistive device. By detecting objects in real-time and converting visual data into auditory feedback via text-to-speech, we provide visually impaired users to enable greater independence and confidence in navigation.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Visually impaired individuals face significant barriers to independent mobility and experience social anxiety due to a reliance on sighted assistance. This dependency is primarily caused by the limitations of traditional white canes, which provide only tactile, ground-level feedback and lack the capability to detect mid-air obstacles, identify specific objects, or provide the environmental context necessary for safe, confident navigation.]
 
 ### The Solution
-[How are you solving it?]
+[Our prototype transforms the standard white cane into an intelligent navigation assistant. By mounting a lightweight webcam and an AI-processing unit onto the cane
+
+Computer Vision (The Eyes): We utilize the YOLO (You Only Look Once) model. Unlike traditional models, YOLO scans the entire camera frame in one pass, making it incredibly fast for real-time detection.
+
+The "40% Rule" (Smart Filtering): To prevent the user from being overwhelmed by too much information, the system only triggers a high-priority alert when an object’s bounding box covers 40% of the camera's view. This ensures we are reporting the most relevant, immediate obstacles.
+
+Voice Interface (The Guide): Using the Pyttsx3 library, the system converts the AI's visual data into clear speech. Instead of a beep, the user hears: "An object is in front of you: [Object Name]."]
 
 ---
 
@@ -31,10 +37,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [Python]
+- Frameworks used: [Ultralytics YOLO model YOLO26n]
+- Libraries used: [OpenCV,Pyttsx3,Threading,NumPy,Time]
+- Tools used: [Pip,Webcam Hardware,Integrated Development Environment (IDE)]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +52,10 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [Real-Time          --- Detection	Instant identification of obstacles as the user walks.]
+- Feature 2: [Proximity Awareness ---	The 40% threshold ensures users are warned about objects directly in their path.]
+- Feature 3: [Natural Language Feedback ---	Uses human-like speech to describe the environment, reducing the learning curve.]
+- Feature 4: [Visual Monitoring ---	Provides a live feed with bounding boxes on a display for caregivers or for calibration.]
 
 ---
 
@@ -59,12 +65,12 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[pip install ultralytics opencv-python pyttsx3 numpy]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[python main.py]
 ```
 
 ### For Hardware:
@@ -374,25 +380,19 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [Google Gemini]
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+-for getting prompt,code
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+-act as an expert prompt engineer
+-structured prompt for gemini cli
+**Percentage of AI-generated code:** [60%]
 
-**Percentage of AI-generated code:** [Approximately X%]
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+-idea and planning
 
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
